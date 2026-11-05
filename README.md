@@ -16,6 +16,7 @@ To simulate real-world data evolution and operational scaling, this project util
 ## Core Schema Models
 
 [Departments] ──< [Employees]
+
 [Customers]   ──< [Orders] ──< [OrderItems] >── [Products]
 
 * `dbo.Departments`: Organizational department hierarchies and metadata.
